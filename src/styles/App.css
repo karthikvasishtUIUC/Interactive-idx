@@ -1,0 +1,66 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the table rows */
+  .table-row {
+    transition: background-color 0.3s ease;
+  }
+  
+  .table-row:hover {
+    background-color: #444; /* Slightly lighter color on hover */
+  }
+  
+  /* Style for the table cells */
+  .table-cell {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff !important;  /* Ensure text color is white */
+    min-width: 150px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease-in-out;
+  }
+  
+  .table-cell.filtered {
+    background-color: #444;
+    color: #fff !important; /* Ensure text color is white */
+  }
+  
+  .table-cell:hover {
+    background-color: #222; /* Slightly lighter color on hover */
+    color: #fff !important; /* Ensure text color remains white */
+  }
+  
+  .table-cell:active {
+    transform: scale(0.95);
+    color: #fff !important; /* Ensure text color remains white */
+  }
+  
+  /* Style for the reset button */
+  .reset-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reset-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Style for the track counter */
+  .track-counter {
+    padding: 16px;
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+  }
+  
