@@ -1,7 +1,6 @@
-import React, { useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
-import songs from '../Songs4.json';  // Ensure this path correctly points to your JSON file
-import '../styles/App.css';
+import songs from '../Songs4.json';
 
 const attributeList = [
   "#", "TRACK", "ARTIST", "ALBUM", "TIME", "YEAR", "GENRE", 
@@ -9,65 +8,73 @@ const attributeList = [
 ];
 
 const MusicTable = ({ filters, setFilters }) => {
+    // We use useState to keep track of displayed values for YEAR and GENRE
+    const [displayed, setDisplayed] = useState({ YEAR: [], GENRE: [] });
 
     const handleFilterChange = (attribute, value) => {
-        const currentValues = filters[attribute] || [];
-        const newValues = currentValues.includes(value)
-            ? currentValues.filter(v => v !== value)
-            : [...currentValues, value];
-
-        const newFilters = { ...filters, [attribute]: newValues };
-        if (newValues.length === 0) {
-            delete newFilters[attribute];
-        }
-        setFilters(newFilters);
-    };
-
-    const isFiltered = (attribute, value) => {
-        return filters[attribute]?.includes(value);
+        setFilters(prevFilters => ({
+            ...prevFilters,
+            [attribute]: (prevFilters[attribute] || []).includes(value) ?
+                prevFilters[attribute].filter(v => v !== value) :
+                [...(prevFilters[attribute] || []), value]
+        }));
     };
 
     const getFilteredSongs = useMemo(() => {
-        return Object.keys(filters).length === 0
-            ? songs['Song List v2 ']
-            : songs['Song List v2 '].filter(song =>
-                Object.keys(filters).every(attribute =>
-                    filters[attribute].length === 0 || filters[attribute].includes(song[attribute])
-                )
-            );
+        return songs['Song List v2 '].filter(song =>
+            Object.entries(filters).every(([attr, values]) =>
+                values.length === 0 || values.includes(song[attr])
+            )
+        );
     }, [filters]);
 
-    const headerCounts = useMemo(() => {
-        return attributeList.map(attr => {
-            const allValues = getFilteredSongs.map(song => song[attr]);
-            const uniqueValues = [...new Set(allValues)];
-            return { unique: uniqueValues.length, total: allValues.length };
+    // Function to compute counts
+    const computeCounts = useMemo(() => {
+        const yearCounts = {};
+        const genreCounts = {};
+        songs['Song List v2 '].forEach(song => {
+            yearCounts[song.YEAR] = (yearCounts[song.YEAR] || 0) + 1;
+            genreCounts[song.GENRE] = (genreCounts[song.GENRE] || 0) + 1;
         });
-    }, [getFilteredSongs]);
+        return { yearCounts, genreCounts };
+    }, []);
+
+    // Initialize display arrays for YEAR and GENRE
+    useMemo(() => {
+        setDisplayed({
+            YEAR: Object.keys(computeCounts.yearCounts).map(year => `${year} (${computeCounts.yearCounts[year]})`),
+            GENRE: Object.keys(computeCounts.genreCounts).map(genre => `${genre} (${computeCounts.genreCounts[genre]})`)
+        });
+    }, [computeCounts]);
 
     return (
         <TableContainer component={Paper} style={{ maxWidth: '100%', overflowX: 'auto' }}>
             <Table sx={{ minWidth: 1800 }} aria-label="simple table" style={{ tableLayout: 'fixed', width: 'auto' }}>
                 <TableHead>
                     <TableRow>
-                        {attributeList.map((attr, index) => (
+                        {attributeList.map(attr => (
                             <TableCell key={attr} style={{ backgroundColor: '#000', color: '#fff', whiteSpace: 'nowrap', minWidth: 150 }}>
-                                <div style={{ fontWeight: 'bold' }}>{attr}</div>
-                                <div style={{ fontSize: 'smaller' }}>(Unique: {headerCounts[index].unique}, Total: {headerCounts[index].total})</div>
+                                {attr}
                             </TableCell>
                         ))}
                     </TableRow>
                 </TableHead>
                 <TableBody>
                     {getFilteredSongs.map((song, index) => (
-                        <TableRow key={index} className="table-row">
+                        <TableRow key={index}>
                             {attributeList.map(attr => (
                                 <TableCell
                                     key={attr}
                                     onClick={() => handleFilterChange(attr, song[attr])}
-                                    className={`table-cell ${isFiltered(attr, song[attr]) ? 'filtered' : ''}`}
-                                >
-                                    {song[attr] || 'N/A'}
+                                    style={{
+                                        cursor: 'pointer',
+                                        backgroundColor: '#000',
+                                        color: '#fff',
+                                        minWidth: 150
+                                    }}>
+                                    {attr === "YEAR" && index < displayed.YEAR.length ? displayed.YEAR[index] :
+                                     attr === "GENRE" && index < displayed.GENRE.length ? displayed.GENRE[index] :
+                                     attr !== "YEAR" && attr !== "GENRE" ? (song[attr] || 'N/A') : ''}
                                 </TableCell>
                             ))}
                         </TableRow>

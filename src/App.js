@@ -2,7 +2,8 @@ import React, { useState, useMemo } from 'react';
 import MusicTable from './components/MusicTable';
 import ResetButton from './components/ResetButton';
 import TrackCounter from './components/TrackCounter';
-import { Typography, Container, Box } from '@mui/material';
+import { Container, Box } from '@mui/material';
+import Typography from '@mui/material/Typography';
 import songs from '../src/Songs4.json';  // Ensure this path correctly points to your JSON file
 import './styles/App.css';
 
