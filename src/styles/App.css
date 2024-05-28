@@ -57,10 +57,36 @@ body {
   
   /* Style for the track counter */
   .track-counter {
-    padding: 16px;
-    background-color: #333;
-    color: #fff;
-    width: 200px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
   }
+  .unique-values-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .unique-value-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+  }
+  
+  .unique-value {
+    background-color: transparent; /* Remove background color */
+    color: #000; /* Set text color to black */
+    padding: 5px;
+    margin: 0; /* Remove margin */
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: fit-content;
+    border: 0; /* Optional: Add a border to make it stand out */
+  }
+  
+  
+  
   

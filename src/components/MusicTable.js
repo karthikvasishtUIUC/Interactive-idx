@@ -1,88 +1,86 @@
 import React, { useState, useMemo } from 'react';
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Typography } from '@mui/material';
 import songs from '../Songs4.json';
+import '../styles/App.css'; // Ensure this path points to your CSS file
 
 const attributeList = [
-  "#", "TRACK", "ARTIST", "ALBUM", "TIME", "YEAR", "GENRE", 
+  "TRACK", "ARTIST", "YEAR", "GENRE", 
   "AQUATIC REFERENCE", "WEATHER/CLIMATE", "RITUAL/ACT", "VESSEL/INFRASTRUCTURE", "CONTEXT"
 ];
 
-const MusicTable = ({ filters, setFilters }) => {
-    // We use useState to keep track of displayed values for YEAR and GENRE
-    const [displayed, setDisplayed] = useState({ YEAR: [], GENRE: [] });
+const MusicTable = () => {
+  const [filters, setFilters] = useState({});
 
-    const handleFilterChange = (attribute, value) => {
-        setFilters(prevFilters => ({
-            ...prevFilters,
-            [attribute]: (prevFilters[attribute] || []).includes(value) ?
-                prevFilters[attribute].filter(v => v !== value) :
-                [...(prevFilters[attribute] || []), value]
-        }));
-    };
+  const handleValueClick = (attribute, value) => {
+    setFilters(prevFilters => ({
+      ...prevFilters,
+      [attribute]: value
+    }));
+  };
 
-    const getFilteredSongs = useMemo(() => {
-        return songs['Song List v2 '].filter(song =>
-            Object.entries(filters).every(([attr, values]) =>
-                values.length === 0 || values.includes(song[attr])
-            )
-        );
-    }, [filters]);
+  const handleReset = () => {
+    setFilters({});
+  };
 
-    // Function to compute counts
-    const computeCounts = useMemo(() => {
-        const yearCounts = {};
-        const genreCounts = {};
-        songs['Song List v2 '].forEach(song => {
-            yearCounts[song.YEAR] = (yearCounts[song.YEAR] || 0) + 1;
-            genreCounts[song.GENRE] = (genreCounts[song.GENRE] || 0) + 1;
-        });
-        return { yearCounts, genreCounts };
-    }, []);
-
-    // Initialize display arrays for YEAR and GENRE
-    useMemo(() => {
-        setDisplayed({
-            YEAR: Object.keys(computeCounts.yearCounts).map(year => `${year} (${computeCounts.yearCounts[year]})`),
-            GENRE: Object.keys(computeCounts.genreCounts).map(genre => `${genre} (${computeCounts.genreCounts[genre]})`)
-        });
-    }, [computeCounts]);
-
-    return (
-        <TableContainer component={Paper} style={{ maxWidth: '100%', overflowX: 'auto' }}>
-            <Table sx={{ minWidth: 1800 }} aria-label="simple table" style={{ tableLayout: 'fixed', width: 'auto' }}>
-                <TableHead>
-                    <TableRow>
-                        {attributeList.map(attr => (
-                            <TableCell key={attr} style={{ backgroundColor: '#000', color: '#fff', whiteSpace: 'nowrap', minWidth: 150 }}>
-                                {attr}
-                            </TableCell>
-                        ))}
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {getFilteredSongs.map((song, index) => (
-                        <TableRow key={index}>
-                            {attributeList.map(attr => (
-                                <TableCell
-                                    key={attr}
-                                    onClick={() => handleFilterChange(attr, song[attr])}
-                                    style={{
-                                        cursor: 'pointer',
-                                        backgroundColor: '#000',
-                                        color: '#fff',
-                                        minWidth: 150
-                                    }}>
-                                    {attr === "YEAR" && index < displayed.YEAR.length ? displayed.YEAR[index] :
-                                     attr === "GENRE" && index < displayed.GENRE.length ? displayed.GENRE[index] :
-                                     attr !== "YEAR" && attr !== "GENRE" ? (song[attr] || 'N/A') : ''}
-                                </TableCell>
-                            ))}
-                        </TableRow>
-                    ))}
-                </TableBody>
-            </Table>
-        </TableContainer>
+  const filteredSongs = useMemo(() => {
+    return songs['Song List v2 '].filter(song =>
+      Object.keys(filters).every(attr => song[attr] === filters[attr])
     );
+  }, [filters]);
+
+  const uniqueValuesWithCounts = useMemo(() => {
+    const counts = {};
+    filteredSongs.forEach(song => {
+      attributeList.forEach(attr => {
+        const value = song[attr];
+        if (value) {
+          counts[attr] = counts[attr] || {};
+          counts[attr][value] = (counts[attr][value] || 0) + 1;
+        }
+      });
+    });
+    return counts;
+  }, [filteredSongs]);
+
+  return (
+    <div>
+      <div className="track-counter">
+        <Typography variant="h6">Total Tracks: {filteredSongs.length}</Typography>
+        <Button variant="contained" color="secondary" onClick={handleReset}>
+          Reset Filters
+        </Button>
+      </div>
+      <TableContainer component={Paper} style={{ maxWidth: '100%', overflowX: 'auto' }}>
+        <Table sx={{ minWidth: 1800 }} aria-label="simple table" style={{ tableLayout: 'fixed', width: 'auto' }}>
+          <TableHead>
+            <TableRow>
+              {attributeList.map(attr => (
+                <TableCell key={attr} style={{ backgroundColor: '#000', color: '#fff', whiteSpace: 'nowrap', minWidth: 150 }}>
+                  {attr}
+                </TableCell>
+              ))}
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            <TableRow>
+              {attributeList.map(attribute => (
+                <TableCell key={attribute} style={{ verticalAlign: 'top' }}>
+                  <strong>{attribute}:</strong>
+                  <div className="unique-values-container">
+                    {uniqueValuesWithCounts[attribute] && Object.entries(uniqueValuesWithCounts[attribute]).map(([value, count], index) => (
+                      <span key={index} className="unique-value" onClick={() => handleValueClick(attribute, value)}>
+                        {value} ({count})
+                      </span>
+                    ))}
+                  </div>
+                </TableCell>
+              ))}
+            </TableRow>
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </div>
+  );
 };
 
 export default MusicTable;
