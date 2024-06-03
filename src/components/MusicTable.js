@@ -8,29 +8,27 @@ const attributeList = [
   "AQUATIC REFERENCE", "WEATHER/CLIMATE", "RITUAL/ACT", "VESSEL/INFRASTRUCTURE", "CONTEXT"
 ];
 
-const MusicTable = () => {
-  const [filters, setFilters] = useState({});
-
+const MusicTable = ({ filters, setFilters, songs }) => {
   const handleValueClick = (attribute, value) => {
-    setFilters(prevFilters => ({
-      ...prevFilters,
-      [attribute]: value
-    }));
+    setFilters(prevFilters => {
+      const newFilters = { ...prevFilters };
+      if (!newFilters[attribute]) {
+        newFilters[attribute] = [value];
+      } else if (newFilters[attribute].includes(value)) {
+        newFilters[attribute] = newFilters[attribute].filter(v => v !== value);
+        if (newFilters[attribute].length === 0) {
+          delete newFilters[attribute];
+        }
+      } else {
+        newFilters[attribute].push(value);
+      }
+      return newFilters;
+    });
   };
-
-  const handleReset = () => {
-    setFilters({});
-  };
-
-  const filteredSongs = useMemo(() => {
-    return songs['Song List v2 '].filter(song =>
-      Object.keys(filters).every(attr => song[attr] === filters[attr])
-    );
-  }, [filters]);
 
   const uniqueValuesWithCounts = useMemo(() => {
     const counts = {};
-    filteredSongs.forEach(song => {
+    songs.forEach(song => {
       attributeList.forEach(attr => {
         const value = song[attr];
         if (value) {
@@ -40,13 +38,13 @@ const MusicTable = () => {
       });
     });
     return counts;
-  }, [filteredSongs]);
+  }, [songs]);
 
   return (
     <div>
       <div className="track-counter">
-        <Typography variant="h6">Total Tracks: {filteredSongs.length}</Typography>
-        <Button variant="contained" color="secondary" onClick={handleReset}>
+        <Typography variant="h6">Total Tracks: {songs.length}</Typography>
+        <Button variant="contained" color="secondary" onClick={() => setFilters({})}>
           Reset Filters
         </Button>
       </div>
@@ -68,9 +66,9 @@ const MusicTable = () => {
                   <strong>{attribute}:</strong>
                   <div className="unique-values-container">
                     {uniqueValuesWithCounts[attribute] && Object.entries(uniqueValuesWithCounts[attribute]).map(([value, count], index) => (
-                      <span key={index} className="unique-value" onClick={() => handleValueClick(attribute, value)}>
-                        {value} ({count})
-                      </span>
+                      <div key={index} className={`unique-value ${filters[attribute] && filters[attribute].includes(value) ? 'selected' : ''}`} onClick={() => handleValueClick(attribute, value)}>
+                        {value} <span>({count})</span>
+                      </div>
                     ))}
                   </div>
                 </TableCell>

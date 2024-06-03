@@ -62,6 +62,7 @@ body {
     align-items: center;
     margin: 20px 0;
   }
+  
   .unique-values-container {
     display: flex;
     flex-direction: column;
@@ -81,12 +82,33 @@ body {
     padding: 5px;
     margin: 0; /* Remove margin */
     cursor: pointer;
-    display: block;
-    text-align: center;
-    width: fit-content;
-    border: 0; /* Optional: Add a border to make it stand out */
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid #000; /* Optional: Add a border to make it stand out */
   }
   
+  .unique-value span {
+    margin-left: auto; /* Ensure the count is aligned to the right */
+    padding-left: 10px; /* Optional: Add some padding for better spacing */
+  }
+  
+  .unique-value.selected {
+    font-weight: bold; /* Highlight selected value */
+    color: darkblue; /* Optional: Change color for selected value */
+  }
+  /* Add hover effects */
+.table-header:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.unique-value:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
   
   
   
