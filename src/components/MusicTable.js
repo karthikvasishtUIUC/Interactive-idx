@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Typography } from '@mui/material';
+import { useSpring, animated } from 'react-spring';
 import songs from '../Songs4.json';
 import '../styles/App.css'; // Ensure this path points to your CSS file
 
@@ -7,6 +8,11 @@ const attributeList = [
   "TRACK", "ARTIST", "YEAR", "GENRE", 
   "AQUATIC REFERENCE", "WEATHER/CLIMATE", "RITUAL/ACT", "VESSEL/INFRASTRUCTURE", "CONTEXT"
 ];
+
+const AnimatedCount = ({ count }) => {
+  const springProps = useSpring({ number: count, from: { number: 0 }, config: { duration: 500 } });
+  return <animated.span>{springProps.number.to(n => Math.floor(n))}</animated.span>;
+};
 
 const MusicTable = () => {
   const [filters, setFilters] = useState({});
@@ -47,10 +53,15 @@ const MusicTable = () => {
     return counts;
   }, [filteredSongs]);
 
+  const trackCount = filteredSongs.length;
+  const props = useSpring({ number: trackCount, from: { number: 0 } });
+
   return (
     <div>
       <div className="track-counter">
-        <Typography variant="h6">Total Tracks: {filteredSongs.length}</Typography>
+        <Typography variant="h6">
+          Total Tracks: <animated.span>{props.number.to(n => n.toFixed(0))}</animated.span>
+        </Typography>
         <Button variant="contained" color="secondary" onClick={handleReset}>
           Reset Filters
         </Button>
@@ -74,7 +85,7 @@ const MusicTable = () => {
                   <div className="unique-values-container">
                     {uniqueValuesWithCounts[attribute] && Object.entries(uniqueValuesWithCounts[attribute]).map(([value, count], index) => (
                       <div key={index} className={`unique-value ${filters[attribute] === value ? 'selected' : ''}`} onClick={() => handleValueClick(attribute, value)}>
-                        {value} {attribute !== "TRACK" && attribute !== "ARTIST" && <span>({count})</span>}
+                        {value} {attribute !== "TRACK" && attribute !== "ARTIST" && <AnimatedCount count={count} />}
                       </div>
                     ))}
                   </div>
