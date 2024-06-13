@@ -95,9 +95,10 @@ body {
   }
   
   .unique-value.selected {
-    font-weight: bold; /* Highlight selected value */
-    color: darkblue; /* Optional: Change color for selected value */
+    background-color: #ddd; /* Highlight selected value */
+    font-weight: bold; /* Make selected value bold */
   }
+  
   /* Add hover effects */
 .table-header:hover {
   background-color: #f1f1f1;

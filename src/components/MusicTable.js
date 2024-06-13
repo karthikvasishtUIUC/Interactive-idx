@@ -8,27 +8,34 @@ const attributeList = [
   "AQUATIC REFERENCE", "WEATHER/CLIMATE", "RITUAL/ACT", "VESSEL/INFRASTRUCTURE", "CONTEXT"
 ];
 
-const MusicTable = ({ filters, setFilters, songs }) => {
+const MusicTable = () => {
+  const [filters, setFilters] = useState({});
+
   const handleValueClick = (attribute, value) => {
     setFilters(prevFilters => {
       const newFilters = { ...prevFilters };
-      if (!newFilters[attribute]) {
-        newFilters[attribute] = [value];
-      } else if (newFilters[attribute].includes(value)) {
-        newFilters[attribute] = newFilters[attribute].filter(v => v !== value);
-        if (newFilters[attribute].length === 0) {
-          delete newFilters[attribute];
-        }
+      if (newFilters[attribute] === value) {
+        delete newFilters[attribute];
       } else {
-        newFilters[attribute].push(value);
+        newFilters[attribute] = value;
       }
       return newFilters;
     });
   };
 
+  const handleReset = () => {
+    setFilters({});
+  };
+
+  const filteredSongs = useMemo(() => {
+    return songs['Song List v2 '].filter(song =>
+      Object.keys(filters).every(attr => song[attr] === filters[attr])
+    );
+  }, [filters]);
+
   const uniqueValuesWithCounts = useMemo(() => {
     const counts = {};
-    songs.forEach(song => {
+    filteredSongs.forEach(song => {
       attributeList.forEach(attr => {
         const value = song[attr];
         if (value) {
@@ -38,13 +45,13 @@ const MusicTable = ({ filters, setFilters, songs }) => {
       });
     });
     return counts;
-  }, [songs]);
+  }, [filteredSongs]);
 
   return (
     <div>
       <div className="track-counter">
-        <Typography variant="h6">Total Tracks: {songs.length}</Typography>
-        <Button variant="contained" color="secondary" onClick={() => setFilters({})}>
+        <Typography variant="h6">Total Tracks: {filteredSongs.length}</Typography>
+        <Button variant="contained" color="secondary" onClick={handleReset}>
           Reset Filters
         </Button>
       </div>
@@ -66,8 +73,8 @@ const MusicTable = ({ filters, setFilters, songs }) => {
                   <strong>{attribute}:</strong>
                   <div className="unique-values-container">
                     {uniqueValuesWithCounts[attribute] && Object.entries(uniqueValuesWithCounts[attribute]).map(([value, count], index) => (
-                      <div key={index} className={`unique-value ${filters[attribute] && filters[attribute].includes(value) ? 'selected' : ''}`} onClick={() => handleValueClick(attribute, value)}>
-                        {value} <span>({count})</span>
+                      <div key={index} className={`unique-value ${filters[attribute] === value ? 'selected' : ''}`} onClick={() => handleValueClick(attribute, value)}>
+                        {value} {attribute !== "TRACK" && attribute !== "ARTIST" && <span>({count})</span>}
                       </div>
                     ))}
                   </div>
