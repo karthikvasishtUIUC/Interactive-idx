@@ -2,31 +2,11 @@
   "Song List v2 ": [
     {
       "AQUATIC REFERENCE": "1",
-      "AQUATIC REFERENCE_1": "2",
-      "AQUATIC REFERENCE_2": "3",
-      "AQUATIC REFERENCE_3": "4",
       "WEATHER/CLIMATE": "1",
-      "WEATHER/CLIMATE_1": "2",
       "RITUAL/ACT": "1",
-      "RITUAL/ACT_1": "2",
-      "RITUAL/ACT_2": "3",
-      "RITUAL/ACT_3": "4",
-      "RITUAL/ACT_4": "5",
-      "RITUAL/ACT_5": "6",
+      "CONTEXT": "1",
       "VESSEL/INFRASTRUCTURE": "1",
-      "VESSEL/INFRASTRUCTURE_1": "2",
-      "CONTEXT": "GEOGRAPHY",
-      "CONTEXT_1": "RELIGION",
-      "CONTEXT_2": "CULTURAL",
-      "CONTEXT_3": "SUBSTANCE USE/ABUSE",
-      "CONTEXT_4": "TRANSPORTATION",
-      "CONTEXT_5": "LOVE/EMOTION",
-      "CONTEXT_6": "HEALTH",
-      "CONTEXT_7": "WEALTH",
-      "CONTEXT_8": "MYTHOLOGY",
-      "CONTEXT_9": "VIOLENCE",
-      "CONTEXT_10": "TECHNOLOGY",
-      "CONTEXT_11": "OBJECT"
+      "CONTEXT_1": "GEOGRAPHY"
     },
     {
       "#": "1",
@@ -36,7 +16,8 @@
       "TIME": "13:40",
       "YEAR": "1968",
       "GENRE": "Rock",
-      "CONTEXT_8": "1"
+      "AQUATIC REFERENCE": "Sea",
+      "CONTEXT": "Mythology"
     },
     {
       "#": "2",
@@ -49,13 +30,7 @@
       "AQUATIC REFERENCE": "Acid Rain",
       "WEATHER/CLIMATE": "Rain",
       "RITUAL/ACT": "Baptize",
-      "CONTEXT_1": "1",
-      "CONTEXT_2": "1",
-      "CONTEXT_3": "1",
-      "CONTEXT_5": "1",
-      "CONTEXT_6": "1",
-      "CONTEXT_7": "1",
-      "CONTEXT_9": "1"
+      "CONTEXT": "Culture"
     },
     {
       "#": "3",
@@ -67,7 +42,7 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
       "WEATHER/CLIMATE": "Rain",
-      "CONTEXT_5": "1"
+      "CONTEXT": "Emotion"
     },
     {
       "#": "4",
@@ -103,7 +78,7 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
       "WEATHER/CLIMATE": "Rain",
-      "CONTEXT_3": "1"
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "7",
@@ -122,7 +97,9 @@
       "TIME": "3:14",
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Ocean"
+      "AQUATIC REFERENCE": "Ocean",
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "9",
@@ -141,8 +118,9 @@
       "TIME": "3:38",
       "YEAR": "2020",
       "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Ice",
       "RITUAL/ACT": "Baptize",
-      "CONTEXT_1": "1"
+      "CONTEXT": "Wealth"
     },
     {
       "#": "11",
@@ -153,8 +131,9 @@
       "TIME": "4:54",
       "YEAR": "2020",
       "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Storm",
       "RITUAL/ACT": "Baptize",
-      "CONTEXT_1": "1"
+      "CONTEXT": "Wealth"
     },
     {
       "#": "12",
@@ -164,8 +143,9 @@
       "TIME": "1:07",
       "YEAR": "2020",
       "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Water",
       "RITUAL/ACT": "Baptize",
-      "CONTEXT_1": "1"
+      "CONTEXT": "Emotion"
     },
     {
       "#": "13",
@@ -177,8 +157,7 @@
       "YEAR": "2019",
       "GENRE": "Alternative/Indie",
       "RITUAL/ACT": "Baptize",
-      "CONTEXT_1": "1",
-      "CONTEXT_3": "1"
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "14",
@@ -190,8 +169,7 @@
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
       "RITUAL/ACT": "Baptize",
-      "CONTEXT_1": "1",
-      "CONTEXT_5": "1"
+      "CONTEXT": "Emotion"
     },
     {
       "#": "15",
@@ -202,7 +180,9 @@
       "TIME": "3:18",
       "YEAR": "2022",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Dripping",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "16",
@@ -214,7 +194,8 @@
       "YEAR": "2018",
       "GENRE": "Alternative/Indie",
       "AQUATIC REFERENCE": "Beach",
-      "CONTEXT": "1"
+      "CONTEXT": "Geography",
+      "CONTEXT_1": "1"
     },
     {
       "#": "17",
@@ -225,7 +206,9 @@
       "TIME": "5:09",
       "YEAR": "2006",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Beach"
+      "AQUATIC REFERENCE": "Beach",
+      "RITUAL/ACT": "Surf",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "18",
@@ -236,7 +219,8 @@
       "YEAR": "2006",
       "GENRE": "Reggae",
       "AQUATIC REFERENCE": "Beach",
-      "CONTEXT": "1"
+      "CONTEXT": "Geography",
+      "CONTEXT_1": "1"
     },
     {
       "#": "19",
@@ -246,7 +230,8 @@
       "TIME": "0:56",
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Beach"
+      "AQUATIC REFERENCE": "Beach",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "20",
@@ -256,9 +241,9 @@
       "TIME": "1:44",
       "YEAR": "2021",
       "GENRE": "R&B/Soul",
-      "GEOGRAPHIC REFERENCE": "USA",
       "AQUATIC REFERENCE": "River",
-      "CONTEXT": "Mississippi"
+      "CONTEXT": "Geography",
+      "CONTEXT_1": "United States of America"
     },
     {
       "#": "21",
@@ -279,7 +264,9 @@
       "TIME": "4:32",
       "YEAR": "2018",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Bloody Waters"
+      "AQUATIC REFERENCE": "Bloody Waters",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Geography"
     },
     {
       "#": "23",
@@ -291,7 +278,7 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Bloody Waters",
       "RITUAL/ACT": "Drown",
-      "RITUAL/ACT_1": "Baptize"
+      "CONTEXT": "Emotion "
     },
     {
       "#": "24",
@@ -302,6 +289,7 @@
       "TIME": "2:54",
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
+      "CONTEXT": "Vessel",
       "VESSEL/INFRASTRUCTURE": "Boat"
     },
     {
@@ -313,6 +301,8 @@
       "YEAR": "1971",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Sail",
+      "CONTEXT": "Infrastructure",
       "VESSEL/INFRASTRUCTURE": "Bridge"
     },
     {
@@ -336,7 +326,9 @@
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Tears",
-      "RITUAL/ACT": "Cry"
+      "WEATHER/CLIMATE": "Rain ",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "28",
@@ -358,7 +350,7 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
       "WEATHER/CLIMATE": "Rain",
-      "CONTEXT_1": "1"
+      "CONTEXT": "Violence"
     },
     {
       "#": "30",
@@ -379,9 +371,8 @@
       "TIME": "2:46",
       "YEAR": "2017",
       "GENRE": "Hip-Hop/Rap",
-      "VESSEL/INFRASTRUCTURE": "Cruise Ship",
-      "CONTEXT_4": "1",
-      "CONTEXT_7": "1"
+      "CONTEXT": "Vessel",
+      "VESSEL/INFRASTRUCTURE": "Cruise Ship"
     },
     {
       "#": "32",
@@ -402,7 +393,8 @@
       "YEAR": "2017",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Tear",
-      "RITUAL/ACT": "Cry"
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "34",
@@ -423,7 +415,9 @@
       "ALBUM": "Hidden Figures: The Album",
       "TIME": "2:49",
       "YEAR": "2016",
-      "GENRE": "R&B/Soul"
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Ocean",
+      "CONTEXT": "Astrology"
     },
     {
       "#": "36",
@@ -433,7 +427,8 @@
       "TIME": "2:37",
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Current"
+      "AQUATIC REFERENCE": "Current",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "37",
@@ -457,7 +452,8 @@
       "YEAR": "2007",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
-      "RITUAL/ACT": "Dance"
+      "RITUAL/ACT": "Dance",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "39",
@@ -470,7 +466,8 @@
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
       "WEATHER/CLIMATE": "Rain",
-      "RITUAL/ACT": "Dance"
+      "RITUAL/ACT": "Dance",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "40",
@@ -481,7 +478,8 @@
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Snow",
-      "WEATHER/CLIMATE": "Snow"
+      "WEATHER/CLIMATE": "Snow",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "41",
@@ -491,7 +489,8 @@
       "TIME": "2:21",
       "YEAR": "2021",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Deep End"
+      "AQUATIC REFERENCE": "Deep End",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "42",
@@ -502,7 +501,8 @@
       "TIME": "2:55",
       "YEAR": "2018",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Deep End"
+      "AQUATIC REFERENCE": "Deep End",
+      "CONTEXT": "Housing"
     },
     {
       "#": "43",
@@ -522,7 +522,8 @@
       "ALBUM": "Rendezvous",
       "TIME": "3:34",
       "YEAR": "2022",
-      "GENRE": "R&B/Soul"
+      "GENRE": "R&B/Soul",
+      "RITUAL/ACT": "Sinking"
     },
     {
       "#": "45",
@@ -533,7 +534,9 @@
       "TIME": "3:39",
       "YEAR": "2014",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Dehydration "
+      "AQUATIC REFERENCE": "Dehydration ",
+      "RITUAL/ACT": "Drink",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "46",
@@ -543,7 +546,8 @@
       "TIME": "2:29",
       "YEAR": "2009",
       "GENRE": "Hip-Hop/Rap",
-      "RITUAL/ACT": "Dive"
+      "RITUAL/ACT": "Dive",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "47",
@@ -553,12 +557,13 @@
       "TIME": "3:46",
       "YEAR": "2020",
       "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Wave",
       "RITUAL/ACT": "Dive"
     },
     {
       "#": "48",
       "TRACK": "Diving Board ",
-      "ARTIST": "redvell",
+      "ARTIST": "redveil",
       "ALBUM": "diving board",
       "TIME": "2:45",
       "YEAR": "2022",
@@ -574,8 +579,9 @@
       "TIME": "3:12",
       "YEAR": "2014",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Drink",
-      "RITUAL/ACT": "Drink"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drink",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "50",
@@ -587,8 +593,8 @@
       "YEAR": "2018",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Drip",
-      "RITUAL/ACT": "Drip",
-      "CONTEXT_7": "1"
+      "RITUAL/ACT": "Drippin'",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "51",
@@ -600,7 +606,7 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Drip",
       "RITUAL/ACT": "Drip",
-      "RITUAL/ACT_1": "Bounce"
+      "CONTEXT": "Geography"
     },
     {
       "#": "52",
@@ -612,7 +618,7 @@
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Drip",
       "RITUAL/ACT": "Drip",
-      "RITUAL/ACT_1": "Drown"
+      "CONTEXT": "Wealth"
     },
     {
       "#": "53",
@@ -625,7 +631,7 @@
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Drip",
       "RITUAL/ACT": "Drippin'",
-      "CONTEXT_7": "1"
+      "CONTEXT": "Wealth"
     },
     {
       "#": "54",
@@ -636,7 +642,8 @@
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Drip",
-      "RITUAL/ACT": "Drippin'"
+      "RITUAL/ACT": "Drippin'",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "55",
@@ -647,7 +654,8 @@
       "YEAR": "2018",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Drip",
-      "RITUAL/ACT": "Drippin'"
+      "RITUAL/ACT": "Drippin'",
+      "CONTEXT": "Culture"
     },
     {
       "#": "56",
@@ -669,8 +677,8 @@
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
       "RITUAL/ACT": "Drive",
-      "VESSEL/INFRASTRUCTURE": "Boat",
-      "CONTEXT_4": "1"
+      "CONTEXT": "Vessel",
+      "VESSEL/INFRASTRUCTURE": "Boat"
     },
     {
       "#": "58",
@@ -681,7 +689,8 @@
       "TIME": "3:20",
       "YEAR": "2020",
       "GENRE": "R&B/Soul",
-      "RITUAL/ACT": "Drown"
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "59",
@@ -691,7 +700,9 @@
       "TIME": "5:41",
       "YEAR": "1998",
       "GENRE": "R&B/Soul",
-      "RITUAL/ACT": "Drown"
+      "AQUATIC REFERENCE": "Liquid",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "60",
@@ -701,7 +712,9 @@
       "TIME": "3:29",
       "YEAR": "2017",
       "GENRE": "Hip-Hop/Rap",
-      "RITUAL/ACT": "Drown"
+      "AQUATIC REFERENCE": "Icy",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Infrastructure"
     },
     {
       "#": "61",
@@ -711,7 +724,9 @@
       "TIME": "3:39",
       "YEAR": "2018",
       "GENRE": "R&B/Soul",
-      "RITUAL/ACT": "Drown"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "62",
@@ -721,7 +736,9 @@
       "TIME": "6:01",
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
-      "RITUAL/ACT": "Drown"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "63",
@@ -742,7 +759,10 @@
       "TIME": "3:23",
       "YEAR": "1971",
       "GENRE": "R&B/Soul",
-      "RITUAL/ACT": "Drown"
+      "AQUATIC REFERENCE": "Sea",
+      "WEATHER/CLIMATE": "Storm",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "65",
@@ -762,7 +782,9 @@
       "TIME": "6:47",
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
-      "RITUAL/ACT": "Drown"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Education "
     },
     {
       "#": "67",
@@ -773,7 +795,8 @@
       "YEAR": "2020",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Float",
-      "RITUAL/ACT": "Float"
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "68",
@@ -785,7 +808,8 @@
       "YEAR": "2023",
       "GENRE": "Afrobeat",
       "AQUATIC REFERENCE": "Float",
-      "RITUAL/ACT": "Float"
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Culture"
     },
     {
       "#": "69",
@@ -796,7 +820,8 @@
       "YEAR": "1977",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Float",
-      "RITUAL/ACT": "Float"
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Astrology"
     },
     {
       "#": "70",
@@ -808,7 +833,8 @@
       "YEAR": "2018",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Float",
-      "RITUAL/ACT": "Float"
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Dance"
     },
     {
       "#": "71",
@@ -820,7 +846,8 @@
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Flood",
       "WEATHER/CLIMATE": "Flood",
-      "RITUAL/ACT": "Flood"
+      "RITUAL/ACT": "Flood",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "72",
@@ -832,7 +859,8 @@
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Flood",
       "WEATHER/CLIMATE": "Flood",
-      "RITUAL/ACT": "Flood"
+      "RITUAL/ACT": "Flood",
+      "CONTEXT": "Culture"
     },
     {
       "#": "73",
@@ -844,7 +872,8 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Flood",
       "WEATHER/CLIMATE": "Flood",
-      "RITUAL/ACT": "Flood"
+      "RITUAL/ACT": "Flood",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "74",
@@ -854,7 +883,9 @@
       "TIME": "4:34",
       "YEAR": "2000",
       "GENRE": "R&B/Soul",
-      "RITUAL/ACT": "Flow"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Flow",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "75",
@@ -876,6 +907,7 @@
       "YEAR": "2012",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Fountain",
+      "CONTEXT": "Infrastructure",
       "VESSEL/INFRASTRUCTURE": "Fountain"
     },
     {
@@ -888,6 +920,7 @@
       "YEAR": "2021",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Fountain",
+      "CONTEXT": "Infrastructure",
       "VESSEL/INFRASTRUCTURE": "Fountain"
     },
     {
@@ -900,7 +933,8 @@
       "YEAR": "2018",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Drip",
-      "RITUAL/ACT": "Drippin'"
+      "RITUAL/ACT": "Drippin'",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "79",
@@ -909,7 +943,8 @@
       "ALBUM": "Morning Survival",
       "TIME": "5:00",
       "YEAR": "2006",
-      "GENRE": "R&B/Soul"
+      "GENRE": "R&B/Soul",
+      "CONTEXT": "Marine Life"
     },
     {
       "#": "80",
@@ -920,7 +955,8 @@
       "TIME": "5:21",
       "YEAR": "1995",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Glaciers"
+      "AQUATIC REFERENCE": "Glaciers",
+      "CONTEXT": "Culture"
     },
     {
       "#": "81",
@@ -930,7 +966,7 @@
       "TIME": "6:12",
       "YEAR": "2002",
       "GENRE": "Electronic",
-      "AQUATIC REFERENCE": "Waves/ Ocean"
+      "AQUATIC REFERENCE": "Waves"
     },
     {
       "#": "82",
@@ -940,7 +976,9 @@
       "TIME": "3:02",
       "YEAR": "2020",
       "GENRE": "Alternative/Indie",
-      "AQUATIC REFERENCE": "Holy Water"
+      "AQUATIC REFERENCE": "Holy Water",
+      "RITUAL/ACT": "Bathe",
+      "CONTEXT": "Heat"
     },
     {
       "#": "83",
@@ -949,8 +987,10 @@
       "ALBUM": "ELDORADO",
       "TIME": "3:26",
       "YEAR": "2016",
-      "GENRE": "Blues",
-      "AQUATIC REFERENCE": "Holy Water"
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Holy Water",
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Religion "
     },
     {
       "#": "84",
@@ -961,7 +1001,8 @@
       "TIME": "3:11",
       "YEAR": "1962",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Ocean"
+      "AQUATIC REFERENCE": "Ocean",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "85",
@@ -983,7 +1024,9 @@
       "TIME": "3:58",
       "YEAR": "2021",
       "GENRE": "Hip-Hop/Rap",
-      "WEATHER/CLIMATE": "Hurricane"
+      "AQUATIC REFERENCE": "Shore",
+      "WEATHER/CLIMATE": "Hurricane",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "87",
@@ -1025,7 +1068,7 @@
       "GENRE": "Funk/Rock",
       "AQUATIC REFERENCE": "Rain",
       "WEATHER/CLIMATE": "Rain",
-      "WEATHER/CLIMATE_1": "Storm"
+      "CONTEXT": "Emotion "
     },
     {
       "#": "91",
@@ -1035,7 +1078,9 @@
       "TIME": "3:16",
       "YEAR": "2020",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Ice"
+      "AQUATIC REFERENCE": "Ice",
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "92",
@@ -1061,8 +1106,7 @@
       "AQUATIC REFERENCE": "Ice Water",
       "WEATHER/CLIMATE": "Rain",
       "STATE": "Solid",
-      "CONTEXT_5": "Break Ups",
-      "CONTEXT_6": "Debt, Mortgages"
+      "CONTEXT": "Emotion"
     },
     {
       "#": "94",
@@ -1074,9 +1118,7 @@
       "YEAR": "1995",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Ice Water",
-      "AQUATIC REFERENCE_1": "Ice",
-      "CONTEXT_1": "Black Jesus",
-      "CONTEXT_7": "Ice (Jewelry)"
+      "CONTEXT": "Religion"
     },
     {
       "#": "95",
@@ -1087,7 +1129,8 @@
       "YEAR": "2005",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Iceberg",
-      "STATE": "Solid"
+      "STATE": "Solid",
+      "CONTEXT": "Religion "
     },
     {
       "#": "96",
@@ -1098,10 +1141,9 @@
       "YEAR": "2021",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Ice",
-      "AQUATIC REFERENCE_1": "Glacier",
       "WEATHER/CLIMATE": "Storm",
       "RITUAL/ACT": "Flow",
-      "CONTEXT_7": "Icy"
+      "CONTEXT": "Culture"
     },
     {
       "#": "97",
@@ -1120,7 +1162,9 @@
       "TIME": "3:29",
       "YEAR": "1972",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Rain"
+      "AQUATIC REFERENCE": "Rain",
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Cry"
     },
     {
       "#": "99",
@@ -1131,8 +1175,9 @@
       "YEAR": "2014",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
-      "CONTEXT": "Chicago",
-      "CONTEXT_3": "Self- Medicated"
+      "RITUAL/ACT": "Drink",
+      "CONTEXT": "Geography",
+      "CONTEXT_1": "Chicago"
     },
     {
       "#": "100",
@@ -1142,7 +1187,9 @@
       "TIME": "2:30",
       "YEAR": "1970",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Religion "
     },
     {
       "#": "101",
@@ -1152,7 +1199,8 @@
       "TIME": "6:30",
       "YEAR": "1976",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Tear"
+      "AQUATIC REFERENCE": "Tear",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "102",
@@ -1163,17 +1211,10 @@
       "YEAR": "2002",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Water",
-      "AQUATIC REFERENCE_1": "Stream",
-      "AQUATIC REFERENCE_2": "Tears",
-      "AQUATIC REFERENCE_3": "Ocean",
+      "WEATHER/CLIMATE": "Liquid",
       "RITUAL/ACT": "Baptize",
-      "RITUAL/ACT_1": "Floating ",
-      "RITUAL/ACT_2": "Drowning",
-      "RITUAL/ACT_3": "Drinking",
-      "RITUAL/ACT_4": "Washing/Bathing/Cleaning",
-      "RITUAL/ACT_5": "Pouring",
-      "VESSEL/INFRASTRUCTURE": "Flood Gates",
-      "CONTEXT_10": "Cooling Off, Melting Down, Evaporating (Fears)"
+      "CONTEXT": "Infrastructure",
+      "VESSEL/INFRASTRUCTURE": "Flood Gates"
     },
     {
       "#": "103",
@@ -1193,7 +1234,9 @@
       "YEAR": "2016",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Ocean",
-      "AQUATIC REFERENCE_1": "Lake"
+      "WEATHER/CLIMATE": "Storm",
+      "RITUAL/ACT": "Swim",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "105",
@@ -1205,8 +1248,7 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Libation",
       "RITUAL/ACT": "Libation",
-      "VESSEL/INFRASTRUCTURE": "Vessels",
-      "CONTEXT_1": "God"
+      "VESSEL/INFRASTRUCTURE": "Vessels"
     },
     {
       "#": "106",
@@ -1216,12 +1258,11 @@
       "TIME": "2:52",
       "YEAR": "2018",
       "GENRE": "R&B/Soul",
-      "WEATHER/CLIMATE": "Tsunmi",
+      "AQUATIC REFERENCE": "Tide",
+      "WEATHER/CLIMATE": "Tsnami",
       "RITUAL/ACT": "Swim",
-      "RITUAL/ACT_1": "Drowning",
-      "VESSEL/INFRASTRUCTURE": "Lifeboat",
-      "CONTEXT_10": "Internet Waves",
-      "CONTEXT_11": "Life Jacket"
+      "CONTEXT": "Vessel",
+      "VESSEL/INFRASTRUCTURE": "Lifeboat"
     },
     {
       "#": "107",
@@ -1232,9 +1273,8 @@
       "YEAR": "2009",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Sea",
-      "AQUATIC REFERENCE_1": "Currents",
       "RITUAL/ACT": "Float",
-      "RITUAL/ACT_1": "Dove ( Dive)",
+      "CONTEXT": "Vessel",
       "VESSEL/INFRASTRUCTURE": "Ship"
     },
     {
@@ -1245,7 +1285,8 @@
       "TIME": "3:57",
       "YEAR": "2021",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "109",
@@ -1256,7 +1297,7 @@
       "YEAR": "2023",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Pond",
-      "AQUATIC REFERENCE_1": "Splash"
+      "CONTEXT": "Marine Life"
     },
     {
       "#": "110",
@@ -1267,7 +1308,7 @@
       "YEAR": "2017",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Liquid",
-      "CONTEXT_6": "Mental Illness"
+      "CONTEXT": "Health"
     },
     {
       "#": "111",
@@ -1279,7 +1320,7 @@
       "GENRE": "Funk/Rock",
       "AQUATIC REFERENCE": "Liquid",
       "RITUAL/ACT": "Wash",
-      "CONTEXT_1": "Liquid Jesus"
+      "CONTEXT": "Religion"
     },
     {
       "#": "112",
@@ -1291,7 +1332,8 @@
       "YEAR": "2005",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Liquid",
-      "STATE": "Liquid"
+      "STATE": "Liquid",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "113",
@@ -1301,7 +1343,8 @@
       "TIME": "4:31",
       "YEAR": "1995",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Liquid"
+      "AQUATIC REFERENCE": "Liquid",
+      "CONTEXT": "Violence"
     },
     {
       "#": "114",
@@ -1311,7 +1354,9 @@
       "TIME": "4:24",
       "YEAR": "2006",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Liquid"
+      "AQUATIC REFERENCE": "Liquid",
+      "RITUAL/ACT": "Sip",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "115",
@@ -1323,10 +1368,8 @@
       "YEAR": "2016",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Oceans",
-      "AQUATIC REFERENCE_1": "Water",
-      "AQUATIC REFERENCE_2": "Lake",
       "RITUAL/ACT": "Swim",
-      "CONTEXT_5": "Love"
+      "CONTEXT": "Emotion"
     },
     {
       "#": "116",
@@ -1339,7 +1382,8 @@
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
       "WEATHER/CLIMATE": "Rain",
-      "RITUAL/ACT": "Rain"
+      "RITUAL/ACT": "Rain",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "117",
@@ -1352,7 +1396,8 @@
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
       "WEATHER/CLIMATE": "Rain",
-      "RITUAL/ACT": "Rain"
+      "RITUAL/ACT": "Rain",
+      "CONTEXT": "Culture"
     },
     {
       "#": "118",
@@ -1363,7 +1408,8 @@
       "YEAR": "2012",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "119",
@@ -1384,7 +1430,8 @@
       "YEAR": "2022",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Melt",
-      "RITUAL/ACT": "Melt"
+      "RITUAL/ACT": "Melt",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "121",
@@ -1395,7 +1442,8 @@
       "YEAR": "2015",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Melt",
-      "RITUAL/ACT": "Melt"
+      "RITUAL/ACT": "Melt",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "122",
@@ -1406,6 +1454,7 @@
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Ocean",
+      "CONTEXT": "Vessel",
       "VESSEL/INFRASTRUCTURE": "Boat"
     },
     {
@@ -1417,7 +1466,9 @@
       "TIME": "3:04",
       "YEAR": "2021",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "River"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "124",
@@ -1427,7 +1478,9 @@
       "TIME": "5:14",
       "YEAR": "2017",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "River"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "125",
@@ -1437,7 +1490,8 @@
       "TIME": "3:42",
       "YEAR": "1976",
       "GENRE": "R&B/Soul",
-      "STATE": "Mist"
+      "STATE": "Mist",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "126",
@@ -1447,7 +1501,8 @@
       "TIME": "4:21",
       "YEAR": "1998",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Mist"
+      "AQUATIC REFERENCE": "Mist",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "127",
@@ -1468,7 +1523,8 @@
       "YEAR": "1968",
       "GENRE": "Funk/Rock",
       "AQUATIC REFERENCE": "Tide",
-      "CONTEXT": "Atlantis"
+      "CONTEXT": "Astrology",
+      "CONTEXT_1": "Atlantis"
     },
     {
       "#": "129",
@@ -1489,7 +1545,9 @@
       "TIME": "3:12",
       "YEAR": "1999",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Flood",
+      "CONTEXT": "Vessel"
     },
     {
       "#": "131",
@@ -1500,7 +1558,8 @@
       "TIME": "3:27",
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Waterfall"
+      "AQUATIC REFERENCE": "Waterfall",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "132",
@@ -1511,10 +1570,10 @@
       "TIME": "1:47",
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
-      "GEOGRAPHIC REFERENCE": "Africa",
       "AQUATIC REFERENCE": "River",
-      "AQUATIC REFERENCE_1": "Ocean",
-      "RITUAL/ACT": "Swim"
+      "RITUAL/ACT": "Swim",
+      "CONTEXT": "Geography",
+      "CONTEXT_1": "Africa"
     },
     {
       "#": "133",
@@ -1525,7 +1584,9 @@
       "YEAR": "1999",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "134",
@@ -1535,7 +1596,9 @@
       "TIME": "1:04",
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
-      "RITUAL/ACT": "Drown"
+      "AQUATIC REFERENCE": "Sea",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "135",
@@ -1545,7 +1608,9 @@
       "TIME": "3:38",
       "YEAR": "2013",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Ocean"
+      "AQUATIC REFERENCE": "Ocean",
+      "RITUAL/ACT": "Bathe",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "136",
@@ -1566,7 +1631,8 @@
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Ocean",
-      "RITUAL/ACT": "Wash"
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "138",
@@ -1578,11 +1644,10 @@
       "YEAR": "2013",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Ocean",
-      "AQUATIC REFERENCE_1": "Waves",
       "RITUAL/ACT": "Drown",
+      "CONTEXT": "Vessel",
       "VESSEL/INFRASTRUCTURE": "Boat",
-      "VESSEL/INFRASTRUCTURE_1": "Yacht",
-      "CONTEXT": "Ivory Coast"
+      "CONTEXT_1": "Ivory Coast"
     },
     {
       "#": "139",
@@ -1592,7 +1657,9 @@
       "TIME": "3:54",
       "YEAR": "1936",
       "GENRE": "Country",
-      "AQUATIC REFERENCE": "River"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Drink",
+      "CONTEXT": "Geography"
     },
     {
       "#": "140",
@@ -1602,7 +1669,9 @@
       "TIME": "2:47",
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Tear"
+      "AQUATIC REFERENCE": "Tear",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "141",
@@ -1613,8 +1682,8 @@
       "YEAR": "2013",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Storm",
-      "AQUATIC REFERENCE_1": "Beach",
-      "WEATHER/CLIMATE": "Storm"
+      "WEATHER/CLIMATE": "Storm",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "142",
@@ -1626,7 +1695,7 @@
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
       "RITUAL/ACT": "Wash",
-      "CONTEXT_1": "Muslim "
+      "CONTEXT": "Religion"
     },
     {
       "#": "143",
@@ -1646,7 +1715,7 @@
       "YEAR": "2020",
       "GENRE": "Alternative",
       "AQUATIC REFERENCE": "Poolside",
-      "AQUATIC REFERENCE_1": "Beach"
+      "CONTEXT": "Recreation"
     },
     {
       "#": "145",
@@ -1656,7 +1725,9 @@
       "TIME": "3:43",
       "YEAR": "1968",
       "GENRE": "Reggae",
-      "AQUATIC REFERENCE": "Drop"
+      "AQUATIC REFERENCE": "Drop",
+      "RITUAL/ACT": "Bathe",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "146",
@@ -1668,8 +1739,8 @@
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
-      "AQUATIC REFERENCE_1": "River",
       "RITUAL/ACT": "Cry",
+      "CONTEXT": "Vessel",
       "VESSEL/INFRASTRUCTURE": "JetSki"
     },
     {
@@ -1679,7 +1750,7 @@
       "ALBUM": "Purple Rain",
       "TIME": "8:41",
       "YEAR": "1984",
-      "GENRE": "Punk/Rock",
+      "GENRE": "Rock",
       "AQUATIC REFERENCE": "Rain",
       "WEATHER/CLIMATE": "Rain"
     },
@@ -1693,7 +1764,9 @@
       "YEAR": "2020",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Spit",
+      "CONTEXT": "Religion"
     },
     {
       "#": "149",
@@ -1705,7 +1778,8 @@
       "YEAR": "2014",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Violence"
     },
     {
       "#": "150",
@@ -1716,7 +1790,9 @@
       "YEAR": "2019",
       "GENRE": "Gospel",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Shower",
+      "CONTEXT": "Religion"
     },
     {
       "#": "151",
@@ -1727,7 +1803,9 @@
       "YEAR": "1997",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Shower",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "152",
@@ -1739,7 +1817,8 @@
       "YEAR": "2005",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Infrastructure"
     },
     {
       "#": "153",
@@ -1761,7 +1840,8 @@
       "YEAR": "2017",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Culture"
     },
     {
       "#": "155",
@@ -1772,7 +1852,8 @@
       "YEAR": "2003",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "156",
@@ -1783,7 +1864,9 @@
       "YEAR": "1998",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "157",
@@ -1806,7 +1889,9 @@
       "YEAR": "1995",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "159",
@@ -1818,7 +1903,8 @@
       "YEAR": "2021",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Raindrop",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "160",
@@ -1829,7 +1915,9 @@
       "TIME": "3:09",
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Raindrop"
+      "AQUATIC REFERENCE": "Raindrop",
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Music"
     },
     {
       "#": "161",
@@ -1841,7 +1929,8 @@
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "162",
@@ -1850,7 +1939,7 @@
       "ALBUM": "Electric Ladyland",
       "TIME": "3:42",
       "YEAR": "1968",
-      "GENRE": "Rock/Blues/Funk",
+      "GENRE": "Rock",
       "AQUATIC REFERENCE": "Rain"
     },
     {
@@ -1861,7 +1950,9 @@
       "TIME": "3:31",
       "YEAR": "2018",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "River"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Swim",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "164",
@@ -1871,7 +1962,9 @@
       "TIME": "4:40",
       "YEAR": "2012",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "River"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "165",
@@ -1881,7 +1974,9 @@
       "TIME": "4:00",
       "YEAR": "2015",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "River"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Clean",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "166",
@@ -1891,8 +1986,9 @@
       "TIME": "4:15",
       "YEAR": "1970",
       "GENRE": "Reggae",
-      "GEOGRAPHIC REFERENCE": "Babylon",
-      "AQUATIC REFERENCE": "River"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Meditate",
+      "CONTEXT": "Reigion"
     },
     {
       "#": "167",
@@ -1903,7 +1999,8 @@
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "River",
-      "RITUAL/ACT": "Sail"
+      "RITUAL/ACT": "Sail",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "168",
@@ -1913,7 +2010,9 @@
       "TIME": "4:04",
       "YEAR": "2020",
       "GENRE": "R&B/Soul",
-      "RITUAL/ACT": "Sail"
+      "AQUATIC REFERENCE": "Sea",
+      "RITUAL/ACT": "Sail",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "169",
@@ -1923,7 +2022,8 @@
       "TIME": "2:09",
       "YEAR": "2011",
       "GENRE": "R&B/Soul",
-      "RITUAL/ACT": "Sail"
+      "RITUAL/ACT": "Sail",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "170",
@@ -1933,7 +2033,9 @@
       "TIME": "3:36",
       "YEAR": "2020",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Tears"
+      "AQUATIC REFERENCE": "Tears",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "171",
@@ -1942,7 +2044,10 @@
       "ALBUM": "There's Alot Going On",
       "TIME": "4:46",
       "YEAR": "2016",
-      "GENRE": "Hip-Hop/Rap"
+      "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Thirst",
+      "RITUAL/ACT": "Showe",
+      "CONTEXT": "Water Crisis"
     },
     {
       "#": "172",
@@ -1953,6 +2058,8 @@
       "YEAR": "2005",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Shelter",
       "VESSEL/INFRASTRUCTURE": "Shelter"
     },
     {
@@ -1963,6 +2070,9 @@
       "TIME": "3:03",
       "YEAR": "2012",
       "GENRE": "Reggae",
+      "AQUATIC REFERENCE": "Tide",
+      "RITUAL/ACT": "Sail",
+      "CONTEXT": "Vessel",
       "VESSEL/INFRASTRUCTURE": "Ship"
     },
     {
@@ -1974,6 +2084,9 @@
       "TIME": "4:21",
       "YEAR": "2014",
       "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Sea",
+      "RITUAL/ACT": "Sail",
+      "CONTEXT": "Vessel",
       "VESSEL/INFRASTRUCTURE": "Ship"
     },
     {
@@ -1994,7 +2107,7 @@
       "YEAR": "2015",
       "GENRE": "R&B/Soul",
       "RITUAL/ACT": "Sink ",
-      "RITUAL/ACT_1": "Swim"
+      "CONTEXT": "Emotion"
     },
     {
       "#": "177",
@@ -2004,7 +2117,8 @@
       "TIME": "2:38",
       "YEAR": "1968",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Bay"
+      "AQUATIC REFERENCE": "Bay",
+      "CONTEXT": "Geography"
     },
     {
       "#": "178",
@@ -2018,14 +2132,15 @@
     },
     {
       "#": "179",
-      "TRACK": "Snowflakes",
+      "TRACK": "Teardrop",
       "ARTIST": "BJ The Chicago Kid",
       "ALBUM": "Snowflakes",
       "TIME": "3:18",
       "YEAR": "2021",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Snowflake",
-      "WEATHER/CLIMATE": "Snow"
+      "WEATHER/CLIMATE": "Snow",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "180",
@@ -2035,7 +2150,9 @@
       "TIME": "3:59",
       "YEAR": "1995",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Tears"
+      "AQUATIC REFERENCE": "Tears",
+      "RITUAL/ACT": "Baptize",
+      "CONTEXT": "Death"
     },
     {
       "#": "181",
@@ -2046,7 +2163,8 @@
       "TIME": "3:01",
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Wet"
+      "AQUATIC REFERENCE": "Wet",
+      "CONTEXT": "Vessel"
     },
     {
       "#": "182",
@@ -2057,7 +2175,8 @@
       "YEAR": "2014",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Water",
-      "AQUATIC REFERENCE_1": "Wet"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Soak"
     },
     {
       "#": "183",
@@ -2066,8 +2185,10 @@
       "ALBUM": "1999",
       "TIME": "4:00",
       "YEAR": "1982",
-      "GENRE": "Funk/Rock",
-      "AQUATIC REFERENCE": "Water"
+      "GENRE": "Funk",
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drink",
+      "CONTEXT": "Vessel"
     },
     {
       "#": "184",
@@ -2098,7 +2219,8 @@
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "187",
@@ -2109,7 +2231,10 @@
       "TIME": "3:54",
       "YEAR": "2022",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Splash"
+      "AQUATIC REFERENCE": "Splash",
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Purify",
+      "CONTEXT": "Religion"
     },
     {
       "#": "188",
@@ -2121,7 +2246,7 @@
       "YEAR": "2018",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Waterfall",
-      "AQUATIC REFERENCE_1": "Splash"
+      "CONTEXT": "Wealth"
     },
     {
       "#": "189",
@@ -2131,7 +2256,8 @@
       "TIME": "4:51",
       "YEAR": "2003",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Waterfall"
+      "AQUATIC REFERENCE": "Waterfall",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "190",
@@ -2141,7 +2267,9 @@
       "TIME": "2:38",
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Splash"
+      "AQUATIC REFERENCE": "Splash",
+      "RITUAL/ACT": "Splash",
+      "CONTEXT": "Housing"
     },
     {
       "#": "191",
@@ -2152,7 +2280,10 @@
       "TIME": "3:06",
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
-      "RITUAL/ACT": "-"
+      "AQUATIC REFERENCE": "Rain",
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Dive",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "192",
@@ -2161,7 +2292,7 @@
       "ALBUM": "Electric Ladyland",
       "TIME": "4:26",
       "YEAR": "1968",
-      "GENRE": "Rock/Blues/Funk",
+      "GENRE": "Rock",
       "AQUATIC REFERENCE": "Rain"
     },
     {
@@ -2172,9 +2303,11 @@
       "ALBUM": "Baptism",
       "TIME": "3:58",
       "YEAR": "2004",
-      "GENRE": "Funk/Rock",
+      "GENRE": "Rock",
       "AQUATIC REFERENCE": "Storm",
-      "WEATHER/CLIMATE": "Storm"
+      "WEATHER/CLIMATE": "Storm",
+      "RITUAL/ACT": "Drop",
+      "CONTEXT": "Religion"
     },
     {
       "#": "194",
@@ -2184,7 +2317,8 @@
       "TIME": "5:02",
       "YEAR": "1981",
       "GENRE": "Jazz",
-      "AQUATIC REFERENCE": "Storm"
+      "AQUATIC REFERENCE": "Storm",
+      "CONTEXT": "Music"
     },
     {
       "#": "195",
@@ -2193,7 +2327,7 @@
       "ALBUM": "An Evening with Billie Holiday",
       "TIME": "3:41",
       "YEAR": "1960",
-      "GENRE": "Blues",
+      "GENRE": "Jazz",
       "AQUATIC REFERENCE": "Storm",
       "WEATHER/CLIMATE": "Storm"
     },
@@ -2207,7 +2341,8 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Storm",
       "WEATHER/CLIMATE": "Storm",
-      "RITUAL/ACT": "Submerge"
+      "RITUAL/ACT": "Submerge",
+      "CONTEXT": "Religion"
     },
     {
       "#": "197",
@@ -2218,7 +2353,9 @@
       "YEAR": "2000",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "198",
@@ -2230,7 +2367,9 @@
       "YEAR": "2021",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Drench",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "199",
@@ -2241,7 +2380,10 @@
       "TIME": "3:46",
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
-      "WEATHER/CLIMATE": "Rain"
+      "AQUATIC REFERENCE": "Wet",
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Reign",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "200",
@@ -2263,7 +2405,8 @@
       "TIME": "2:32",
       "YEAR": "2015",
       "GENRE": "Hip-Hop/Rap",
-      "RITUAL/ACT": "Surf"
+      "RITUAL/ACT": "Surf",
+      "CONTEXT": "Housing"
     },
     {
       "#": "202",
@@ -2274,6 +2417,7 @@
       "TIME": "6:15",
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Wave",
       "RITUAL/ACT": "Surf"
     },
     {
@@ -2284,7 +2428,8 @@
       "TIME": "4:17",
       "YEAR": "2011",
       "GENRE": "Alternative/Indie",
-      "RITUAL/ACT": "Swim"
+      "RITUAL/ACT": "Swim",
+      "CONTEXT": "Death"
     },
     {
       "#": "204",
@@ -2294,7 +2439,8 @@
       "TIME": "4:29",
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
-      "RITUAL/ACT": "Swim"
+      "RITUAL/ACT": "Swim",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "205",
@@ -2305,6 +2451,7 @@
       "YEAR": "2012",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Swimming Pool",
+      "CONTEXT": "Recreation",
       "VESSEL/INFRASTRUCTURE": "Swimming Pool"
     },
     {
@@ -2318,7 +2465,7 @@
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Swimming Pool",
       "RITUAL/ACT": "Swim",
-      "RITUAL/ACT_1": "Drink ",
+      "CONTEXT": "Health",
       "VESSEL/INFRASTRUCTURE": "Swimming Pool"
     },
     {
@@ -2329,7 +2476,9 @@
       "TIME": "3:45",
       "YEAR": "1974",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "River"
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Cleanse",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "208",
@@ -2338,7 +2487,10 @@
       "ALBUM": "Acrylic",
       "TIME": "1:36",
       "YEAR": "2018",
-      "GENRE": "Hip-Hop/Rap"
+      "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Pour",
+      "CONTEXT": "Water Crisis"
     },
     {
       "#": "209",
@@ -2349,7 +2501,9 @@
       "TIME": "3:17",
       "YEAR": "2022",
       "GENRE": "Pop",
-      "AQUATIC REFERENCE": "Tears"
+      "AQUATIC REFERENCE": "Tears",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "210",
@@ -2359,7 +2513,8 @@
       "TIME": "4:18",
       "YEAR": "1993",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Tears"
+      "AQUATIC REFERENCE": "Tears",
+      "CONTEXT": "Violence"
     },
     {
       "#": "211",
@@ -2369,13 +2524,9 @@
       "TIME": "3:26",
       "YEAR": "2020",
       "GENRE": "R&B/Soul",
-      "GEOGRAPHIC REFERENCE": "USA",
       "AQUATIC REFERENCE": "Beach",
-      "CONTEXT": "1",
-      "CONTEXT_1": "1",
-      "CONTEXT_3": "1",
-      "CONTEXT_5": "1",
-      "CONTEXT_9": "1"
+      "CONTEXT": "Geography",
+      "CONTEXT_1": "United States of Armerica"
     },
     {
       "#": "212",
@@ -2385,7 +2536,8 @@
       "TIME": "1:07",
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Beach"
+      "AQUATIC REFERENCE": "Beach",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "213",
@@ -2395,7 +2547,9 @@
       "TIME": "5:36",
       "YEAR": "2017",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Ocean"
+      "AQUATIC REFERENCE": "Ocean",
+      "RITUAL/ACT": "Swim",
+      "CONTEXT": "Geography"
     },
     {
       "#": "214",
@@ -2406,11 +2560,8 @@
       "YEAR": "1997",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Rain",
-      "AQUATIC REFERENCE_1": "Beach",
       "WEATHER/CLIMATE": "Rain",
-      "CONTEXT_2": "Finger Waves",
-      "CONTEXT_3": "Smoke",
-      "CONTEXT_10": "Finger Waves"
+      "CONTEXT": "Culture"
     },
     {
       "#": "215",
@@ -2420,7 +2571,9 @@
       "TIME": "4:05",
       "YEAR": "2010",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Sea"
+      "AQUATIC REFERENCE": "Sea",
+      "RITUAL/ACT": "Clean",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "216",
@@ -2432,7 +2585,10 @@
       "YEAR": "2003",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Vapor",
-      "STATE": "Vapor"
+      "WEATHER/CLIMATE": "Rain",
+      "STATE": "Vapor",
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Control"
     },
     {
       "#": "217",
@@ -2443,7 +2599,8 @@
       "TIME": "2:54",
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Vessel"
     },
     {
       "#": "218",
@@ -2454,6 +2611,8 @@
       "YEAR": "2014",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Flow",
+      "CONTEXT": "Institution",
       "VESSEL/INFRASTRUCTURE": "Boat"
     },
     {
@@ -2461,6 +2620,7 @@
       "TRACK": "There Will Be Tears",
       "ARTIST": "Frank Ocean",
       "ALBUM": "Nostalgia Ultra",
+      "TIME": "3:30",
       "YEAR": "2011",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Tear",
@@ -2475,19 +2635,9 @@
       "YEAR": "2002",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Rain",
-      "WEATHER/CLIMATE": "Rain"
-    },
-    {
-      "#": "221",
-      "TRACK": "Tides",
-      "ARTIST": "Bomobo",
-      "FEATURES": "Jamila Woods",
-      "ALBUM": "Fragments",
-      "TIME": "3:46",
-      "YEAR": "2022",
-      "GENRE": "Dance/Electronic",
-      "AQUATIC REFERENCE": "Tide",
-      "STATE": "Tide"
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "222",
@@ -2498,7 +2648,9 @@
       "YEAR": "2018",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Tide",
-      "STATE": "Tide"
+      "STATE": "Tide",
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "223",
@@ -2508,7 +2660,10 @@
       "TIME": "4:42",
       "YEAR": "2017",
       "GENRE": "R&B/Soul",
-      "CONTEXT": "Atlantis"
+      "AQUATIC REFERENCE": "Wave",
+      "WEATHER/CLIMATE": "Thunder",
+      "RITUAL/ACT": "Swim",
+      "CONTEXT": "Memory"
     },
     {
       "#": "224",
@@ -2529,6 +2684,7 @@
       "TIME": "4:36",
       "YEAR": "2013",
       "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Wade",
       "RITUAL/ACT": "Wade"
     },
     {
@@ -2540,7 +2696,8 @@
       "YEAR": "2016",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
-      "RITUAL/ACT": "Walk"
+      "RITUAL/ACT": "Walk",
+      "CONTEXT": "Geography"
     },
     {
       "#": "227",
@@ -2551,7 +2708,10 @@
       "TIME": "3:10",
       "YEAR": "2020",
       "GENRE": "Hip-Hop/Rap",
-      "RITUAL/ACT": "Wash"
+      "AQUATIC REFERENCE": "Rain",
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Death"
     },
     {
       "#": "228",
@@ -2561,18 +2721,21 @@
       "TIME": "3:36",
       "YEAR": "2022",
       "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Mist",
       "RITUAL/ACT": "Wash"
     },
     {
       "#": "229",
-      "TRACK": "WATER",
+      "TRACK": "Water",
       "ARTIST": "Beyonce",
       "FEATURES": "Pharell Williams, Salatiel",
       "ALBUM": "Lion King: The Gift",
       "TIME": "2:33",
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drink",
+      "CONTEXT": "Material Culture"
     },
     {
       "#": "230",
@@ -2582,7 +2745,9 @@
       "TIME": "3:05",
       "YEAR": "2019",
       "GENRE": "Alternative/Indie",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Quench",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "231",
@@ -2593,7 +2758,8 @@
       "TIME": "2:48",
       "YEAR": "2019",
       "GENRE": "Gospel",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Religion"
     },
     {
       "#": "232",
@@ -2603,7 +2769,10 @@
       "TIME": "2:03",
       "YEAR": "2020",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "WEATHER/CLIMATE": "Tsunami",
+      "RITUAL/ACT": "Swim",
+      "CONTEXT": "Astrology"
     },
     {
       "#": "233",
@@ -2614,11 +2783,13 @@
       "TIME": "2:42",
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drip",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "234",
-      "TRACK": "Water ",
+      "TRACK": "Water",
       "ARTIST": "Tyla",
       "TIME": "3:20",
       "YEAR": "2023",
@@ -2627,7 +2798,7 @@
     },
     {
       "#": "235",
-      "TRACK": "Water ",
+      "TRACK": "Water",
       "ARTIST": "Slim Thug",
       "FEATURES": "Killa Kyleon",
       "ALBUM": "King of The Nawf",
@@ -2644,7 +2815,9 @@
       "TIME": "3:27",
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Baptize",
+      "CONTEXT": "Geography"
     },
     {
       "#": "237",
@@ -2654,7 +2827,8 @@
       "TIME": "1:17",
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Hydrate"
     },
     {
       "#": "238",
@@ -2664,7 +2838,9 @@
       "TIME": "5:00",
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "239",
@@ -2674,7 +2850,8 @@
       "TIME": "1:58",
       "YEAR": "2016",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Waterfall"
+      "AQUATIC REFERENCE": "Waterfall",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "240",
@@ -2684,7 +2861,8 @@
       "TIME": "2:36",
       "YEAR": "2022",
       "GENRE": "Alternative/Indie",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "241",
@@ -2716,17 +2894,20 @@
       "YEAR": "2014",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
-      "RITUAL/ACT": "Water Me"
+      "RITUAL/ACT": "Water",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "244",
-      "TRACK": "Water Me ",
+      "TRACK": "Water Me",
       "ARTIST": "Lizzo",
       "ALBUM": "Cuz I Love You (Super Deluxe)",
       "TIME": "3:06",
       "YEAR": "2019",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Hydrate",
+      "CONTEXT": "Occupation"
     },
     {
       "#": "245",
@@ -2737,7 +2918,9 @@
       "TIME": "3:44",
       "YEAR": "2019",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drip",
+      "CONTEXT": "Institution"
     },
     {
       "#": "246",
@@ -2748,9 +2931,8 @@
       "YEAR": "1994",
       "GENRE": "R&B/Soul",
       "AQUATIC REFERENCE": "Water",
-      "AQUATIC REFERENCE_1": "Tears",
       "WEATHER/CLIMATE": "Water",
-      "CONTEXT_5": "Regret, Love, Hurt"
+      "CONTEXT": "Emotion"
     },
     {
       "#": "247",
@@ -2761,6 +2943,8 @@
       "YEAR": "2023",
       "GENRE": "Afrobeat/Reggae",
       "AQUATIC REFERENCE": "Water Slide",
+      "RITUAL/ACT": "Splash",
+      "CONTEXT": "Recreation",
       "VESSEL/INFRASTRUCTURE": "Water Slide"
     },
     {
@@ -2781,7 +2965,8 @@
       "TIME": "3:02",
       "YEAR": "2020",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Occupation"
     },
     {
       "#": "250",
@@ -2792,7 +2977,8 @@
       "TIME": "5:03",
       "YEAR": "2022",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Water"
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "251",
@@ -2812,7 +2998,9 @@
       "TIME": "4:40",
       "YEAR": "1994",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Waterfall"
+      "AQUATIC REFERENCE": "Waterfall",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Health"
     },
     {
       "#": "253",
@@ -2823,7 +3011,8 @@
       "YEAR": "2020",
       "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
-      "RITUAL/ACT": "Water"
+      "RITUAL/ACT": "Water",
+      "CONTEXT": "Real Estate"
     },
     {
       "#": "254",
@@ -2832,7 +3021,7 @@
       "ALBUM": "Head Hunters",
       "TIME": "6:29",
       "YEAR": "1973",
-      "GENRE": "Jazz/Funk"
+      "GENRE": "Jazz"
     },
     {
       "#": "255",
@@ -2853,7 +3042,8 @@
       "TIME": "3:31",
       "YEAR": "2017",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Waves"
+      "AQUATIC REFERENCE": "Waves",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "257",
@@ -2863,7 +3053,9 @@
       "TIME": "3:32",
       "YEAR": "2012",
       "GENRE": "Hip-Hop/Rap",
-      "AQUATIC REFERENCE": "Waves"
+      "AQUATIC REFERENCE": "Waves",
+      "RITUAL/ACT": "Spit",
+      "CONTEXT": "Religion"
     },
     {
       "#": "258",
@@ -2883,7 +3075,8 @@
       "TIME": "3:22",
       "YEAR": "2015",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Waves"
+      "AQUATIC REFERENCE": "Waves",
+      "RITUAL/ACT": "Surf"
     },
     {
       "#": "260",
@@ -2894,11 +3087,13 @@
       "TIME": "3:36",
       "YEAR": "2018",
       "GENRE": "R&B/Soul",
-      "AQUATIC REFERENCE": "Waves"
+      "AQUATIC REFERENCE": "Waves",
+      "RITUAL/ACT": "Drown",
+      "CONTEXT": "Substance Use"
     },
     {
       "#": "261",
-      "TRACK": "Waves ",
+      "TRACK": "Waves",
       "ARTIST": "J. Dilla",
       "ALBUM": "Donuts",
       "TIME": "1:39",
@@ -2913,7 +3108,9 @@
       "ALBUM": "Winter in America",
       "TIME": "3:32",
       "YEAR": "2021",
-      "GENRE": "Hip-Hop/Rap"
+      "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Rain",
+      "CONTEXT": "Government"
     },
     {
       "#": "263",
@@ -2924,14 +3121,14 @@
       "TIME": "5:14",
       "YEAR": "2009",
       "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Sea",
       "RITUAL/ACT": "Boating",
-      "VESSEL/INFRASTRUCTURE": "Yacht",
-      "CONTEXT_4": "1",
-      "CONTEXT_7": "1"
+      "CONTEXT": "Vessel",
+      "VESSEL/INFRASTRUCTURE": "Yacht"
     },
     {
       "#": "264",
-      "TRACK": "Yacht Club ",
+      "TRACK": "Yacht Club",
       "ARTIST": "Lil’ Yachty",
       "FEATURES": "Juice WRLD",
       "ALBUM": "Off The Juice",
@@ -2939,9 +3136,8 @@
       "YEAR": "2018",
       "GENRE": "Hip-Hop/Rap",
       "RITUAL/ACT": "Boating",
-      "VESSEL/INFRASTRUCTURE": "Yacht",
-      "CONTEXT_4": "1",
-      "CONTEXT_7": "1"
+      "CONTEXT": "Vessel",
+      "VESSEL/INFRASTRUCTURE": "Yacht"
     },
     {
       "#": "265",
@@ -2952,11 +3148,10 @@
       "TIME": "4:33",
       "YEAR": "2006",
       "GENRE": "Hip-Hop/Rap",
-      "GEOGRAPHIC REFERENCE": "USA",
-      "AQUATIC REFERENCE": "Hurricane Katrina",
+      "AQUATIC REFERENCE": "Hurricane",
       "WEATHER/CLIMATE": "Hurricane",
-      "CONTEXT": "1",
-      "CONTEXT_7": "1"
+      "CONTEXT": "Geography",
+      "CONTEXT_1": "United States of America"
     },
     {
       "#": "266",
@@ -2965,7 +3160,10 @@
       "ALBUM": "So Much fun",
       "TIME": "3:04",
       "YEAR": "2019",
-      "GENRE": "Hip-Hop/Rap"
+      "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Wave",
+      "RITUAL/ACT": "Surf",
+      "CONTEXT": "Culture"
     },
     {
       "#": "267",
@@ -2975,7 +3173,9 @@
       "ALBUM": "Revival",
       "TIME": "5:03",
       "YEAR": "2017",
-      "GENRE": "Hip-Hop/Rap"
+      "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Religion"
     },
     {
       "#": "268",
@@ -2984,7 +3184,9 @@
       "ALBUM": "Cozy Tapes Vol. 2",
       "TIME": "3:25",
       "YEAR": "2017",
-      "GENRE": "Hip-Hop/Rap"
+      "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Food "
     },
     {
       "#": "269",
@@ -2994,7 +3196,10 @@
       "ALBUM": "Super Slimey",
       "TIME": "3:25",
       "YEAR": "2017",
-      "GENRE": "Hip-Hop/Rap"
+      "GENRE": "Hip-Hop/Rap",
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Drip",
+      "CONTEXT": "Wealth"
     },
     {
       "#": "270",
@@ -3011,7 +3216,9 @@
       "ALBUM": "Wish it Would Rain",
       "TIME": "2:42",
       "YEAR": "1968",
-      "GENRE": "R&B Soul Funk"
+      "GENRE": "R&B/Soul",
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Emotion "
     },
     {
       "#": "272",
@@ -3020,7 +3227,9 @@
       "ALBUM": "Who Is Jill Scott? - Words and Sounds, Vol.1",
       "TIME": "4:12",
       "YEAR": "2000",
-      "GENRE": "R&B/Soul"
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Rain",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "273",
@@ -3036,14 +3245,18 @@
       "ARTIST": "Bessie Smith",
       "TIME": "3:06",
       "YEAR": "1927",
-      "GENRE": "Jazz/Blues"
+      "GENRE": "Jazz/Blues",
+      "AQUATIC REFERENCE": "Water ",
+      "CONTEXT": "Shelter"
     },
     {
       "#": "275",
       "TRACK": "Hot Spring Blues",
       "ARTIST": "Bessie Smith",
       "TIME": "3:54",
-      "GENRE": "Jazz/Blues"
+      "GENRE": "Jazz/Blues",
+      "AQUATIC REFERENCE": "Water ",
+      "CONTEXT": "Heat"
     },
     {
       "#": "276",
@@ -3085,7 +3298,10 @@
       "ALBUM": "Feels like Rain",
       "TIME": "4:35",
       "YEAR": "1993",
-      "GENRE": "Jazz/Blues"
+      "GENRE": "Jazz/Blues",
+      "AQUATIC REFERENCE": "River",
+      "WEATHER/CLIMATE": "Hurricane",
+      "CONTEXT": "Geography"
     },
     {
       "#": "281",
@@ -3094,7 +3310,10 @@
       "ALBUM": "Queen of the Blues",
       "TIME": "3:08",
       "YEAR": "1929",
-      "GENRE": "Jazz/Blues"
+      "GENRE": "Jazz/Blues",
+      "AQUATIC REFERENCE": "Levee",
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Natural Disaster"
     },
     {
       "#": "282",
@@ -3102,7 +3321,8 @@
       "ARTIST": "Muddy Waters",
       "TIME": "3:07",
       "YEAR": "1957",
-      "GENRE": "Jazz/Blues"
+      "GENRE": "Jazz/Blues",
+      "AQUATIC REFERENCE": "Sea"
     },
     {
       "#": "283",
@@ -3114,83 +3334,217 @@
       "GENRE": "Pop",
       "AQUATIC REFERENCE": "Water",
       "RITUAL/ACT": "Swim",
-      "RITUAL/ACT_1": "Drown",
-      "RITUAL/ACT_2": "Cry",
-      "RITUAL/ACT_3": "Sink ",
-      "CONTEXT_1": "Baptise"
-    },
-    {
-      "#": "284"
+      "CONTEXT": "Religion"
     },
     {
       "#": "285",
       "TRACK": "My Window",
       "ARTIST": "Lucky Daye",
       "FEATURES": "Mahalia",
-      "AQUATIC REFERENCE": "Rain"
+      "ALBUM": "Table for Two",
+      "TIME": "4:42",
+      "YEAR": "2021",
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Rain",
+      "CONTEXT": "Emotion"
     },
     {
       "#": "286",
       "TRACK": "Ocean Prime ",
       "ARTIST": "The Alchemist",
       "FEATURES": "Boldy James",
+      "ALBUM": "Yacht Rock 2",
+      "TIME": "1:40",
+      "YEAR": "2019",
+      "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Ocean",
-      "AQUATIC REFERENCE_1": "Beach",
-      "AQUATIC REFERENCE_2": "River",
       "RITUAL/ACT": "Drowning",
+      "CONTEXT": "Vessel",
       "VESSEL/INFRASTRUCTURE": "Yacht",
-      "VESSEL/INFRASTRUCTURE_1": "Boat",
-      "CONTEXT": "Great Lakes"
+      "CONTEXT_1": "United States of America"
     },
     {
       "#": "287",
-      "TRACK": "PourMe Water",
+      "TRACK": "Pour Me Water",
       "ARTIST": "Mr Eazi",
+      "ALBUM": "Life is Eazi, Vol 2",
+      "YEAR": "2018",
+      "GENRE": "Hip-Hop/Rap",
       "AQUATIC REFERENCE": "Water",
       "RITUAL/ACT": "Pour",
-      "CONTEXT_1": "Holy Water"
+      "CONTEXT": "Religion"
     },
     {
-      "#": "286"
+      "#": "286",
+      "TRACK": "Clear Water",
+      "ARTIST": "Meshell Ndgeocello",
+      "FEATURES": "Deantoni Parks, Jeff Parker, Sanford Biggers",
+      "ALBUM": "The Omnichord Real Book",
+      "TIME": "4:35",
+      "YEAR": "2023",
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Water"
     },
     {
-      "#": "287"
+      "#": "287",
+      "TRACK": "Farm to Table",
+      "ARTIST": "Mick Jenkins",
+      "FEATURES": "Vic Mensa",
+      "ALBUM": "The Patience",
+      "TIME": "3:08",
+      "YEAR": "2023",
+      "GENRE": "Hip Hop/Rap",
+      "AQUATIC REFERENCE": "Waves",
+      "RITUAL/ACT": "Sip",
+      "CONTEXT": "Vessel",
+      "VESSEL/INFRASTRUCTURE": "Boat"
     },
     {
-      "#": "288"
+      "#": "288",
+      "TRACK": "Fruits of The Spirit",
+      "ARTIST": "Jay Electronica",
+      "ALBUM": "A Written Testimony",
+      "TIME": "1:36",
+      "YEAR": "2020",
+      "GENRE": "Hip Hop/Rap",
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Wade",
+      "CONTEXT": "Religion"
     },
     {
-      "#": "289"
+      "#": "289",
+      "TRACK": "Ice Box",
+      "ARTIST": "Omarion",
+      "ALBUM": "21",
+      "TIME": "4:16",
+      "YEAR": "2006",
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Ice",
+      "CONTEXT": "Emotion "
     },
     {
-      "#": "290"
+      "#": "290",
+      "TRACK": "Lonely Thoughts",
+      "ARTIST": "Rapsody",
+      "FEATURES": "Chance the Rapper, Big K.R.I.T",
+      "ALBUM": "She Got Game",
+      "TIME": "5:44",
+      "YEAR": "2013",
+      "GENRE": "Hip Hop/Rap",
+      "AQUATIC REFERENCE": "Water",
+      "WEATHER/CLIMATE": "Rain",
+      "RITUAL/ACT": "Reign",
+      "CONTEXT": "Geography"
     },
     {
-      "#": "291"
+      "#": "291",
+      "TRACK": "Rain",
+      "ARTIST": "Trey Songz",
+      "FEATURES": "Swae Lee",
+      "ALBUM": "Back Home",
+      "TIME": "3:43",
+      "YEAR": "2020",
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Rain",
+      "WEATHER/CLIMATE": "Rain",
+      "CONTEXT": "Emotion "
     },
     {
-      "#": "292"
+      "#": "292",
+      "TRACK": "Rain Rain",
+      "ARTIST": "Young Dolf",
+      "FEATURES": "Key Glock",
+      "ALBUM": "Dum and Dummer 2",
+      "TIME": "3:31",
+      "YEAR": "2021",
+      "GENRE": "Hip Hop/Rap",
+      "AQUATIC REFERENCE": "Rain",
+      "CONTEXT": "Emotion "
     },
     {
-      "#": "293"
+      "#": "293",
+      "TRACK": "River",
+      "ARTIST": "Ibeyi",
+      "ALBUM": "Ibeyi",
+      "TIME": "4:11",
+      "YEAR": "2015",
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "River",
+      "RITUAL/ACT": "Wash",
+      "CONTEXT": "Emotion "
     },
     {
-      "#": "294"
+      "#": "294",
+      "TRACK": "Rock The Boat",
+      "ARTIST": "Aaliyah",
+      "ALBUM": "Aaliyah",
+      "TIME": "4:34",
+      "YEAR": "2001",
+      "GENRE": "R&B/Soul",
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Emotion "
     },
     {
-      "#": "295"
+      "#": "295",
+      "TRACK": "Something In The Water",
+      "ARTIST": "Saba",
+      "FEATURES": "Denzel Curry",
+      "ALBUM": "Mrs.Whoever/Something in the Water",
+      "TIME": "3:18",
+      "YEAR": "2020",
+      "GENRE": "Hip Hop/Rap",
+      "AQUATIC REFERENCE": "Water",
+      "CONTEXT": "Wealth"
     },
     {
-      "#": "296"
+      "#": "296",
+      "TRACK": "Tides",
+      "ARTIST": "Bonobo",
+      "FEATURES": "Jamila Woods",
+      "ALBUM": "Fragments",
+      "TIME": "3:46",
+      "YEAR": "2022",
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Rain",
+      "RITUAL/ACT": "Float",
+      "CONTEXT": "Emotion "
     },
     {
-      "#": "297"
+      "#": "297",
+      "TRACK": "Voyage to Atlantis",
+      "ARTIST": "The Isley Brothers",
+      "ALBUM": "Go For Your Guns",
+      "TIME": "4:31",
+      "YEAR": "1977",
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Misty",
+      "RITUAL/ACT": "Sail",
+      "CONTEXT": "Emotion "
     },
     {
-      "#": "298"
+      "#": "298",
+      "TRACK": "Water",
+      "ARTIST": "Kanye West",
+      "FEATURES": "Ant Clemons",
+      "ALBUM": "JESUS IS KING",
+      "TIME": "2:48",
+      "YEAR": "2019",
+      "GENRE": "R&B/Soul",
+      "AQUATIC REFERENCE": "Water",
+      "RITUAL/ACT": "Clean",
+      "CONTEXT": "Religion"
     },
     {
-      "#": "299"
+      "#": "299",
+      "TRACK": "A.P.I.D.T.A",
+      "ARTIST": "Jay Electronica",
+      "ALBUM": "A Written Testimony",
+      "TIME": "5:26",
+      "YEAR": "2020",
+      "GENRE": "Hip Hop/Rap",
+      "AQUATIC REFERENCE": "Tear",
+      "RITUAL/ACT": "Cry",
+      "CONTEXT": "Religion"
     },
     {
       "#": "300"

@@ -1,0 +1,43 @@
+[debug] [2024-07-16T03:27:13.276Z] ----------------------------------------------------------------------
+[debug] [2024-07-16T03:27:13.277Z] Command:       /opt/homebrew/Cellar/node/21.7.1/bin/node /opt/homebrew/bin/firebase init
+[debug] [2024-07-16T03:27:13.278Z] CLI Version:   13.10.2
+[debug] [2024-07-16T03:27:13.278Z] Platform:      darwin
+[debug] [2024-07-16T03:27:13.278Z] Node Version:  v21.7.1
+[debug] [2024-07-16T03:27:13.278Z] Time:          Mon Jul 15 2024 22:27:13 GMT-0500 (Central Daylight Time)
+[debug] [2024-07-16T03:27:13.278Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-16T03:27:13.313Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-16T03:27:13.313Z] > authorizing via signed-in user (karthiksvasisht1807@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/karthiksvasisht/Desktop/VS code/Interactive-idx
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-16T03:27:16.707Z] Using project from CLI flag: interactive-idx-music
+[debug] [2024-07-16T03:27:16.708Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/interactive-idx-music [none]
+[debug] [2024-07-16T03:27:16.926Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/interactive-idx-music 403
+[debug] [2024-07-16T03:27:16.926Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/interactive-idx-music {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-07-16T03:27:16.927Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-07-16T03:27:16.998Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/opt/homebrew/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/opt/homebrew/lib/node_modules/firebase-tools/lib/apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project interactive-idx-music. Please make sure the project exists and your account has permission to access it.

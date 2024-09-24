@@ -19,13 +19,13 @@ const App = () => {
   }, [filters]);
 
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="xl"> {/* Changed to "xl" to give more width */}
       <Box sx={{ padding: 4 }}>
         <Typography variant="h1" style={{ textAlign: 'center', marginBottom: '20px', background: '-webkit-linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', fontSize: '2.5rem', fontWeight: 'bold', color: '#424242', fontFamily: "'Montserrat', sans-serif" }}>
           Interactive Music Dashboard
         </Typography>
         <Box display="flex" justifyContent="space-between">
-          <Box sx={{ width: '100%' }}>
+          <Box sx={{ width: '100%', overflowX: 'auto' }}> {/* Ensured overflow is handled */}
             <MusicTable filters={filters} setFilters={setFilters} songs={filteredSongs} />
           </Box>
         </Box>

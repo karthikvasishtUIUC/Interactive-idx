@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Button, Typography, TextField } from '@mui/material';
 import { useSpring, animated } from 'react-spring';
 import songs from '../Songs4.json';
@@ -21,7 +21,6 @@ const columnStyles = {
   CONTEXT: { minWidth: '5px', maxWidth: '5px' }
 };
 
-
 const AnimatedCount = ({ count }) => {
   const springProps = useSpring({ number: count, from: { number: 0 }, config: { duration: 500 } });
   return <animated.span>{springProps.number.to(n => Math.floor(n))}</animated.span>;
@@ -30,68 +29,19 @@ const AnimatedCount = ({ count }) => {
 const MusicTable = () => {
   const [filters, setFilters] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
-  const [isMultiSelect, setIsMultiSelect] = useState(false);
-  const [tempSelections, setTempSelections] = useState({});
-
-  useEffect(() => {
-    const handleKeyDown = (event) => {
-      if (event.ctrlKey || event.metaKey) {
-        setIsMultiSelect(true);
-      }
-    };
-
-    const handleKeyUp = (event) => {
-      if (!event.ctrlKey && !event.metaKey) {
-        setIsMultiSelect(false);
-        setFilters((prevFilters) => ({ ...prevFilters, ...tempSelections }));
-        setTempSelections({});
-      }
-    };
-
-    document.addEventListener('keydown', handleKeyDown);
-    document.addEventListener('keyup', handleKeyUp);
-
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-      document.removeEventListener('keyup', handleKeyUp);
-    };
-  }, [tempSelections]);
+  const [highlightedValues, setHighlightedValues] = useState({});
 
   const handleValueClick = (attribute, value) => {
-    if (isMultiSelect) {
-      setTempSelections(prevSelections => {
-        const newSelections = { ...prevSelections };
-        const currentValues = newSelections[attribute] || [];
-
-        if (currentValues.includes(value)) {
-          newSelections[attribute] = currentValues.filter(v => v !== value);
-        } else {
-          newSelections[attribute] = [...currentValues, value];
-        }
-
-        if (!newSelections[attribute].length) {
-          delete newSelections[attribute];
-        }
-
-        return newSelections;
-      });
-    } else {
-      setFilters(prevFilters => {
-        const newFilters = { ...prevFilters };
-        if (newFilters[attribute]?.includes(value)) {
-          newFilters[attribute] = newFilters[attribute].filter(v => v !== value);
-          if (!newFilters[attribute].length) delete newFilters[attribute];
-        } else {
-          newFilters[attribute] = [value];
-        }
-        return newFilters;
-      });
-    }
+    setHighlightedValues(prev => ({
+      ...prev,
+      [attribute]: value,
+    }));
   };
 
   const handleReset = () => {
     setFilters({});
     setSearchQuery("");
+    setHighlightedValues({});
   };
 
   const filteredSongs = useMemo(() => {
@@ -153,11 +103,23 @@ const MusicTable = () => {
                 <TableCell key={attribute} style={{ ...columnStyles[attribute], verticalAlign: 'top' }}>
                   <strong>{attribute}:</strong>
                   <div className="unique-values-container">
-                    {uniqueValuesWithCounts[attribute] && Object.entries(uniqueValuesWithCounts[attribute]).map(([value, count], index) => (
-                      <div key={index} className={`unique-value ${tempSelections[attribute]?.includes(value) || filters[attribute]?.includes(value) ? 'selected' : ''}`} onClick={() => handleValueClick(attribute, value)}>
-                        {value} {attribute !== "TRACK" && attribute !== "ARTIST" && <AnimatedCount count={count} />}
-                      </div>
-                    ))}
+                    {uniqueValuesWithCounts[attribute] && Object.entries(uniqueValuesWithCounts[attribute]).map(([value, count], index) => {
+                      const isSelected = highlightedValues[attribute] === value;
+                      return (
+                        <div
+                          key={index}
+                          className="unique-value"
+                          onClick={() => handleValueClick(attribute, value)}
+                          style={{
+                            fontWeight: isSelected ? 'bold' : 'normal',
+                            color: isSelected ? 'inherit' : 'lightgrey',
+                            cursor: 'pointer'
+                          }}
+                        >
+                          {value} {attribute !== "TRACK" && attribute !== "ARTIST" && <AnimatedCount count={count} />}
+                        </div>
+                      );
+                    })}
                   </div>
                 </TableCell>
               ))}
